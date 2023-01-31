@@ -31,7 +31,7 @@ abigen --abi=Store.abi --pkg=store --out=Store.go
 go build
 ```
 
-## 参考文档  
+## 参考文档:  
 goethereumbook: https://goethereumbook.org/zh/  
 以太坊官网推荐: https://ethereum.org/en/developers/docs/programming-languages/golang/  
 go 源码: https://github.com/ethereum/go-ethereum  
