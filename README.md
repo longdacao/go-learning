@@ -26,6 +26,11 @@ solc Store.sol   --optimize  --bin --abi --output-dir .
 abigen --abi=Store.abi --pkg=store --out=Store.go
 ```
 
+- 编译可执行文件  
+```shell
+go build
+```
+
 ## 参考文档 
 goethereumbook: https://goethereumbook.org/zh/  
 以太坊官网推荐: https://ethereum.org/en/developers/docs/programming-languages/golang/  
